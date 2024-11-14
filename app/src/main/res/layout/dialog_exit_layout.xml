@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dialog_grid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="100dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/exit_dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_2dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/_8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_2dp"
+                    android:layout_marginRight="@dimen/_2dp">
+                    <include layout="@layout/native_smr"/>
+                </FrameLayout>
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="@dimen/_16sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/exitBtn"
+                    android:background="@color/ads_bg_color"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:paddingTop="@dimen/_2dp"
+                    android:paddingRight="@dimen/_20dp"
+                    android:paddingBottom="@dimen/_2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_56dp"
+                    android:text="@string/tap_here_to_exit_app"
+                    android:singleLine="true"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/font_med"
+                    app:backgroundTint="@color/ads_bg_color"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

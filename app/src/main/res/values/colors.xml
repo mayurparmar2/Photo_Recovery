@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="transparent">#00000000</color>
+<color name="white">#ffffffff</color>
+<color name="overlay">#60000000</color>
+<color name="black">#ff000000</color>
+<color name="primary">#ff1d32fe</color>
+<color name="gray">#ffe0e0e0</color>
+<color name="text_color">#ff000000</color>
+<color name="bg_color">#ffffffff</color>
+<color name="lightTransparent">#50000000</color>
+<color name="preview_status_bar">#80000000</color>
+<color name="grey">#898989</color>
+<color name="ads_bg_color">#f4f8ff</color>
+<color name="color_red">#ff1744</color>
+<color name="yellow">#ff9100</color>
+<color name="off_black">#4f000000</color>
+<color name="button_txt_color">#888888</color>
+<color name="feed_btn">#f1f1f1</color>
+<color name="selection_overlay_color">#600000ff</color>
+<color name="background">#ffffffff</color>
+<color name="surface">#ffffffff</color>
+<color name="next">#f0f2ff</color>
+</resources>
